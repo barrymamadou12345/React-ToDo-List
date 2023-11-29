@@ -1,0 +1,100 @@
+.grand {
+  background-color: #2c2c2c;
+  height: auto;
+  min-height: 720px;
+}
+
+.listo {
+  border-radius: 10px;
+  color: white;
+  background-color: #222222;
+  font-size: 18px;
+}
+.conta {
+  position: relative;
+}
+.bouton {
+  background-color: #4f4f4f;
+  width: 142px;
+  margin-left: -30px;
+  font-size: 18px;
+  font-style: italic;
+  position: absolute;
+}
+.supprime {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.contenu {
+  width: 50%;
+  margin: auto;
+}
+
+.trait {
+  width: 60%;
+  margin: auto;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.leInput {
+  background-color: #d9d9d9;
+  height: 43px;
+  width: 87%;
+}
+.imgeContent {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NomApp {
+  width: 60%;
+}
+.NomApp h1 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Tahoma;
+}
+.tiret {
+  height: 2px;
+}
+
+.NomTache {
+  width: 90%;
+  overflow-wrap: break-word;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .contenu {
+    width: 90%;
+  }
+  .NomApp {
+    width: 100%;
+    margin-left: 25%;
+  }
+  .leInput {
+    width: 97%;
+  }
+  .trait {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .NomApp {
+    width: 100%;
+  }
+  .NomApp h1 {
+    font-weight: 600;
+    font-size: 23px;
+  }
+}
